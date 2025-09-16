@@ -7,8 +7,8 @@ const GigSchema = new Schema({
   postedBy: { type: String },                         // Optional (can be empty)
   category: { type: String, required: true },         // e.g., Event, Market
   date: { type: Date, required: true },               // Event date
-  workDays: { type: Number, required: true },         // Duration in days
-  payment: { type: String, required: true },          // Payment format
+  // workDays: { type: Number, required: true },         // Duration in days
+  // payment: { type: String, required: true },          // Payment format
   contact: { type: String, required: true },          // Contact number
   createdAt: { type: Date, default: Date.now }        // Auto timestamp
 });

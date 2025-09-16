@@ -20,10 +20,15 @@ const bodyParser = require('body-parser');
 const { UserModel } = require('./models/UserModel');
 const WrapAsync = require('./utils/WrapAsync');
 const { isLoggedIn } = require('./middlewares/middleware');
+const axios = require("axios");
+
 
 const url = process.env.MONGO_URL;
 const PORT = process.env.PORT || 3002;
 const secret = process.env.SECRET;
+
+const AI_URL = "http://127.0.0.1:5000/analyze"; // Python FastAPI service
+
 
 app.use(express.json());
 //
@@ -95,16 +100,26 @@ app.post('/dummy1', WrapAsync(async (req, res) => {
 }));
 
 //new Gig post
-app.post('/addGig',isLoggedIn, async (req, res) => {
+// New Gig post with AI moderation
+app.post('/addGig', isLoggedIn, async (req, res) => {
   try {
+    const aiRes = await axios.post("http://127.0.0.1:5000/analyze", req.body);
+
+    if (aiRes.data.status !== "ok") {
+      return res.status(400).json({ error: aiRes.data.message });
+    }
+    console.log(req.body);
     const newGig = new Gig(req.body);
     await newGig.save();
-    res.status(201).json({ message: 'Gig created successfully', gig: newGig });
+
+    res.status(201).json({ message: "✅ Gig created successfully", gig: newGig });
   } catch (err) {
-    console.error(err);
-    res.status(500).json({ error: 'Failed to create gig' });
+    console.error("Error in /addGig:", err.message);
+    res.status(500).json({ error: "Server error while creating gig" });
   }
 });
+
+
 // New Service post
 app.post('/addService', isLoggedIn, async (req, res) => {
   try {
