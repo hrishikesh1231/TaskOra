@@ -27,7 +27,7 @@ const url = process.env.MONGO_URL;
 const PORT = process.env.PORT || 3002;
 const secret = process.env.SECRET;
 
-const AI_URL = "http://127.0.0.1:5000/analyze"; // Python FastAPI service
+const FASTAPI_URL = process.env.FASTAPI_URL || "http://127.0.0.1:8000"; // Python FastAPI service
 
 
 app.use(express.json());
@@ -101,36 +101,113 @@ app.post('/dummy1', WrapAsync(async (req, res) => {
 
 //new Gig post
 // New Gig post with AI moderation
+// GIGS
 app.post('/addGig', isLoggedIn, async (req, res) => {
   try {
-    const aiRes = await axios.post("http://127.0.0.1:5000/analyze", req.body);
+    const aiRes = await axios.post(`${FASTAPI_URL}/analyze`, req.body);
 
-    if (aiRes.data.status !== "ok") {
-      return res.status(400).json({ error: aiRes.data.message });
+    // ✅ Save only if FastAPI says ok
+    if (aiRes.data.status === "ok") {
+      const newGig = new Gig(req.body);
+      await newGig.save();
+      return res.status(201).json({ message: "✅ Gig created successfully", gig: newGig });
     }
-    console.log(req.body);
-    const newGig = new Gig(req.body);
-    await newGig.save();
 
-    res.status(201).json({ message: "✅ Gig created successfully", gig: newGig });
+    // (Usually won't reach here, but safe check)
+    return res.status(400).json({ error: aiRes.data.message });
+
   } catch (err) {
+    // ✅ If FastAPI rejected with 400, forward reason
+    if (err.response && err.response.data) {
+      return res.status(err.response.status || 400).json({
+        error: err.response.data.message || "Rejected by AI validation"
+      });
+    }
+
     console.error("Error in /addGig:", err.message);
     res.status(500).json({ error: "Server error while creating gig" });
   }
 });
 
 
-// New Service post
-app.post('/addService', isLoggedIn, async (req, res) => {
+// SERVICES
+// SERVICES
+app.post("/addService", isLoggedIn, async (req, res) => {
   try {
-    const newService = new Service(req.body);
-    await newService.save();
-    res.status(201).json({ message: 'Service created successfully', service: newService });
+    let { title, description, salary, location, postedBy, contact, date } = req.body;
+
+    // 1️⃣ Ensure correct date format (YYYY-MM-DD)
+    let isoDate = null;
+    if (date) {
+      const parsed = new Date(date);
+      if (!isNaN(parsed.getTime())) {
+        isoDate = parsed.toISOString().split("T")[0]; // force ISO date
+      }
+    }
+
+    // 2️⃣ Clean salary (remove ₹, numbers, and special chars for AI moderation)
+    const cleanSalary = salary ? salary.toString().replace(/[^a-zA-Z\s]/g, "").trim() : "";
+
+    // 3️⃣ Clean contact (only keep digits, allow +91 format)
+    let cleanContact = contact ? contact.toString().trim() : "";
+    if (cleanContact.startsWith("+")) {
+      cleanContact = "+" + cleanContact.replace(/\D/g, "");
+    } else {
+      cleanContact = cleanContact.replace(/\D/g, "");
+    }
+
+    // 4️⃣ Debug log (check payload being sent to FastAPI)
+    console.log("📤 Sending to FastAPI /analyze_service:", {
+      title,
+      description,
+      salary: cleanSalary,
+      location,
+      postedBy,
+      contact: cleanContact,
+      date: isoDate,
+    });
+
+    // 5️⃣ Call FastAPI moderation
+    const aiResponse = await axios.post(`${FASTAPI_URL}/analyze_service`, {
+      title,
+      description,
+      salary: cleanSalary,
+      location,
+      postedBy,
+      contact: cleanContact,
+      date: isoDate,
+    });
+
+    // 6️⃣ If safe → save in MongoDB (store original values for salary/date)
+    if (aiResponse.data.status === "ok") {
+      const newService = new Service({
+        title,
+        description,
+        salary, // store raw salary (e.g. ₹12000/month)
+        location,
+        postedBy,
+        contact, // store raw contact
+        date: new Date(date), // store raw date
+      });
+
+      await newService.save();
+      return res.status(201).json({ message: "Service created successfully ✅", service: newService });
+    }
+
+    return res.status(400).json({ error: aiResponse.data.message });
+
   } catch (err) {
-    console.error(err);
-    res.status(500).json({ error: 'Failed to create service' });
+    if (err.response && err.response.data) {
+      return res.status(err.response.status || 400).json({
+        error: err.response.data.message || "Rejected by AI validation",
+      });
+    }
+
+    console.error("❌ Error in /addService:", err.message);
+    res.status(500).json({ error: "Failed to create service" });
   }
 });
+
 
 
 

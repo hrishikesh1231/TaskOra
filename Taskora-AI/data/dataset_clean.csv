@@ -1,0 +1,622 @@
+text,text_norm,label,maybe_gibberish
+buy guns and drugs,buy guns and drugs,1,False
+cheap weapons available,cheap weapons available,1,False
+selling illegal items,selling illegal items,1,False
+hire assassin for job,hire assassin for job,1,False
+get free drugs here,get free drugs here,1,False
+terrorist attack planning,terrorist attack planning,1,False
+fake passport available,fake passport available,1,False
+illegal hacking service,illegal hacking service,1,False
+buy explosives cheap,buy explosives cheap,1,False
+black market weapons sale,black market weapons sale,1,False
+drug dealer near me,drug dealer near me,1,False
+download cracked software free,download cracked software free,1,False
+spam spam spam buy now,spam spam spam buy now,1,False
+win lottery now click here,win lottery now click here,1,False
+steal credit card data,steal credit card data,1,False
+illegal betting website,illegal betting website,1,False
+sell counterfeit money,sell counterfeit money,1,False
+buy fake certificates,buy fake certificates,1,False
+adult content available here,adult content available here,1,False
+contact for escort service,contact for escort service,1,False
+adult video chat available,adult video chat available,1,False
+looking for sex service,looking for sex service,1,False
+escort girls for hire,escort girls for hire,1,False
+call girls near me,call girls near me,1,False
+porn site link here,porn site link here,1,False
+watch xxx movies free,watch xxx movies free,1,False
+nude pictures available,nude pictures available,1,False
+one night stand offer,one night stand offer,1,False
+cheap prostitution service,cheap prostitution service,1,False
+sex chat free,sex chat free,1,False
+dating service with erotic content,dating service with erotic content,1,False
+hot girls available now,hot girls available now,1,False
+selling explicit photos,selling explicit photos,1,False
+sexual massage service,sexual massage service,1,False
+erotic video download,erotic video download,1,False
+dbajsb,dbajsb,1,True
+asjdlkajsd,asjdlkajsd,1,True
+qwertyuiop,qwertyuiop,1,False
+zzzzzzzz,zzzzzzzz,1,True
+lkjhgfds,lkjhgfds,1,True
+plmoknijb,plmoknijb,1,False
+xxxxxx,xxxxxx,1,True
+mmmmmmm,mmmmmmm,1,True
+aaaaaaaa,aaaaaaaa,1,True
+uuuuuuuu,uuuuuuuu,1,True
+randomlettersonly,randomlettersonly,1,False
+askldjaskldj,askldjaskldj,1,True
+help me with painting work,help me with painting work,0,False
+need someone to design a logo,need someone to design a logo,0,False
+looking for event photographer,looking for event photographer,0,False
+searching for web developer,searching for web developer,0,False
+want to hire a cook for family event,want to hire a cook for family event,0,False
+need a tutor for mathematics,need a tutor for mathematics,0,False
+looking for plumber to fix sink,looking for plumber to fix sink,0,False
+organize birthday party decorations,organize birthday party decorations,0,False
+help needed for shifting furniture,help needed for shifting furniture,0,False
+looking for electrician for wiring,looking for electrician for wiring,0,False
+want someone to design a poster,want someone to design a poster,0,False
+need help cleaning my house,need help cleaning my house,0,False
+carpenter required for woodwork,carpenter required for woodwork,0,False
+gardener needed for backyard,gardener needed for backyard,0,False
+dog walking service required,dog walking service required,0,False
+looking for babysitter,looking for babysitter,0,False
+need driver for two days,need driver for two days,0,False
+hire a cook for weekend,hire a cook for weekend,0,False
+looking for laundry help,looking for laundry help,0,False
+event host required for function,event host required for function,0,False
+book singer for wedding,book singer for wedding,0,False
+looking for personal trainer,looking for personal trainer,0,False
+graphic designer needed for poster,graphic designer needed for poster,0,False
+help for shifting house,help for shifting house,0,False
+looking for makeup artist,looking for makeup artist,0,False
+want someone to fix my laptop,want someone to fix my laptop,0,False
+need photographer for birthday,need photographer for birthday,0,False
+require yoga trainer,require yoga trainer,0,False
+hire a tailor for stitching,hire a tailor for stitching,0,False
+searching for AC repair technician,searching for ac repair technician,0,False
+housemaid required for daily chores,housemaid required for daily chores,0,False
+looking for painting teacher,looking for painting teacher,0,False
+need mehendi artist for wedding,need mehendi artist for wedding,0,False
+book DJ for party,book dj for party,0,False
+rent a car driver,rent a car driver,0,False
+need someone to deliver groceries,need someone to deliver groceries,0,False
+looking for freelance content writer,looking for freelance content writer,0,False
+want help with website SEO,want help with website seo,0,False
+hiring shop assistant,hiring shop assistant,0,False
+need cashier for store,need cashier for store,0,False
+looking for receptionist,looking for receptionist,0,False
+help needed in warehouse,help needed in warehouse,0,False
+need waiter for restaurant,need waiter for restaurant,0,False
+hiring cleaning staff,hiring cleaning staff,0,False
+looking for security guard,looking for security guard,0,False
+hire delivery boy,hire delivery boy,0,False
+need temporary labor for shifting,need temporary labor for shifting,0,False
+looking for housekeeper,looking for housekeeper,0,False
+part-time office boy required,part-time office boy required,0,False
+hiring tutor for science,hiring tutor for science,0,False
+looking for mathematics teacher,looking for mathematics teacher,0,False
+need music teacher,need music teacher,0,False
+searching for dance teacher,searching for dance teacher,0,False
+want guitar lessons,want guitar lessons,0,False
+need help with drawing homework,need help with drawing homework,0,False
+looking for physics lecturer,looking for physics lecturer,0,False
+chemistry coaching available,chemistry coaching available,0,False
+biology tutor required,biology tutor required,0,False
+english speaking teacher wanted,english speaking teacher wanted,0,False
+i want girl for sex,i want girl for sex,1,False
+sex available here,sex available here,1,False
+cheap sex service,cheap sex service,1,False
+fuck,fuck,1,False
+i want to fuck now,i want to fuck now,1,False
+hot girls sex chat,hot girls sex chat,1,False
+girls available for night,girls available for night,1,False
+buy sex service,buy sex service,1,False
+call girls for sex,call girls for sex,1,False
+escort girl available,escort girl available,1,False
+prostitution service,prostitution service,1,False
+porn videos free,porn videos free,1,False
+erotic sex offers,erotic sex offers,1,False
+Hrishikesh,hrishikesh,0,False
+Rahul,rahul,0,False
+Anita,anita,0,False
+Priya,priya,0,False
+Ramesh,ramesh,0,False
+Suresh,suresh,0,False
+Amit,amit,0,False
+Vikas,vikas,0,False
+Neha,neha,0,False
+Pooja,pooja,0,False
+Sunita,sunita,0,False
+Kiran,kiran,0,False
+Ajay,ajay,0,False
+Sanjay,sanjay,0,False
+Rohit,rohit,0,False
+Vivek,vivek,0,False
+Meena,meena,0,False
+Shreya,shreya,0,False
+Anjali,anjali,0,False
+Deepak,deepak,0,False
+Rajesh,rajesh,0,False
+Mohit,mohit,0,False
+Nisha,nisha,0,False
+Sneha,sneha,0,False
+Arjun,arjun,0,False
+Kartik,kartik,0,False
+Mohan,mohan,0,False
+Suman,suman,0,False
+Harsh,harsh,0,True
+Manish,manish,0,False
+Aditi,aditi,0,False
+Komal,komal,0,False
+Payal,payal,0,False
+Nidhi,nidhi,0,False
+Ritu,ritu,0,False
+Prakash,prakash,0,False
+Chandan,chandan,0,False
+Sameer,sameer,0,False
+Gaurav,gaurav,0,False
+Tanvi,tanvi,0,False
+Sakshi,sakshi,0,False
+Isha,isha,0,False
+Ravi,ravi,0,False
+Akhil,akhil,0,False
+Shivam,shivam,0,False
+Abhishek,abhishek,0,False
+Kunal,kunal,0,False
+Ashok,ashok,0,False
+Vinay,vinay,0,False
+Jatin,jatin,0,False
+Lokesh,lokesh,0,False
+Tina,tina,0,False
+Divya,divya,0,False
+Varun,varun,0,False
+Pankaj,pankaj,0,False
+Geeta,geeta,0,False
+Rachna,rachna,0,False
+Megha,megha,0,False
+Monika,monika,0,False
+Rekha,rekha,0,False
+Asha,asha,0,False
+Jyoti,jyoti,0,False
+Seema,seema,0,False
+Sonal,sonal,0,False
+Shalini,shalini,0,False
+Radhika,radhika,0,False
+Usha,usha,0,False
+Alok,alok,0,False
+Anand,anand,0,False
+Parth,parth,0,True
+Mira,mira,0,False
+Lakshmi,lakshmi,0,False
+Kavita,kavita,0,False
+Rakhi,rakhi,0,False
+Farhan,farhan,0,False
+Ayesha,ayesha,0,False
+Imran,imran,0,False
+Salman,salman,0,False
+Shabana,shabana,0,False
+Yusuf,yusuf,0,False
+Iqbal,iqbal,0,False
+Arif,arif,0,False
+Zoya,zoya,0,False
+Fatima,fatima,0,False
+Ali,ali,0,False
+Omar,omar,0,False
+Sana,sana,0,False
+Sofia,sofia,0,False
+John,john,0,False
+Michael,michael,0,False
+David,david,0,False
+Sarah,sarah,0,False
+Emily,emily,0,False
+Jessica,jessica,0,False
+Daniel,daniel,0,False
+Matthew,matthew,0,False
+James,james,0,False
+Sophia,sophia,0,False
+Olivia,olivia,0,False
+Isabella,isabella,0,False
+Mia,mia,0,False
+Charlotte,charlotte,0,False
+Amelia,amelia,0,False
+Harper,harper,0,False
+Ethan,ethan,0,False
+Alexander,alexander,0,False
+William,william,0,False
+Benjamin,benjamin,0,False
+Lucas,lucas,0,False
+Henry,henry,0,True
+Jack,jack,0,False
+Grace,grace,0,False
+Lily,lily,0,False
+Ella,ella,0,True
+Chloe,chloe,0,False
+Ava,ava,0,False
+i want to kill someone,i want to kill someone,1,False
+i will kill him tonight,i will kill him tonight,1,False
+planning to murder someone,planning to murder someone,1,False
+shoot him with a gun,shoot him with a gun,1,False
+buy a pistol to kill,buy a pistol to kill,1,False
+hire a hitman,hire a hitman,1,False
+hire an assassin for hire,hire an assassin for hire,1,False
+need someone to murder,need someone to murder,1,False
+stab someone with knife,stab someone with knife,1,False
+buy knife for murder,buy knife for murder,1,False
+order bullets online,order bullets online,1,False
+where to buy ak47,where to buy aka7,1,False
+sell grenades and explosives,sell grenades and explosives,1,False
+bomb making instructions,bomb making instructions,1,False
+bomb materials for sale,bomb materials for sale,1,False
+buy cocaine online,buy cocaine online,1,False
+get heroin fast,get heroin fast,1,False
+order meth for sale,order meth for sale,1,False
+buy ecstasy tablets,buy ecstasy tablets,1,False
+weed dealer near me,weed dealer near me,1,False
+sell pills darknet,sell pills darknet,1,False
+buy hashish online,buy hashish online,1,False
+where to get opioids,where to get opioids,1,False
+cheap escort tonight,cheap escort tonight,1,False
+call girls available now,call girls available now,1,False
+book escort service,book escort service,1,False
+sex for money,sex for money,1,False
+hot hookups tonight,hot hookups tonight,1,False
+one night stand available,one night stand available,1,False
+porn download sites,porn download sites,1,False
+watch xxx free,watch xxx free,1,False
+earn money fast click here,earn money fast click here,1,False
+credit card details for sale,credit card details for sale,1,False
+steal paypal account,steal paypal account,1,False
+phishing link send now,phishing link send now,1,False
+fake id for sale,fake id for sale,1,False
+counterfeit money supplier,counterfeit money supplier,1,False
+get bank details cheap,get bank details cheap,1,False
+k1ll someone,kill someone,1,False
+k!ll them now,k!ll them now,1,True
+8uy gun online,8uy gun online,1,False
+b0mb materials,bomb materials,1,False
+sh00t them,shoot them,1,False
+zzzzzzz,zzzzzzz,1,True
+asdasdas,asdasdas,1,False
+qweqwe,qweqwe,1,False
+@@@@@@@,,1,True
+1234567890,i2eas6789o,1,True
+lllllllll,lllllllll,1,True
+plumber needed in Goa,plumber needed in goa,0,False
+electrician required in Mumbai,electrician required in mumbai,0,False
+looking for a cook in Pune,looking for a cook in pune,0,False
+need a driver in Delhi,need a driver in delhi,0,False
+photographer wanted in Bangalore,photographer wanted in bangalore,0,False
+book a yoga trainer in Hyderabad,book a yoga trainer in hyderabad,0,False
+looking for a tutor in Chennai,looking for a tutor in chennai,0,False
+gardener needed in Kolkata,gardener needed in kolkata,0,False
+housekeeper required in Ahmedabad,housekeeper required in ahmedabad,0,False
+carpenter required in Jaipur,carpenter required in jaipur,0,False
+hiring waiter in Surat,hiring waiter in surat,0,False
+need delivery boy in Nagpur,need delivery boy in nagpur,0,False
+searching for AC repair in Lucknow,searching for ac repair in lucknow,0,False
+looking for painter in Kanpur,looking for painter in kanpur,0,False
+want a babysitter in Indore,want a babysitter in indore,0,False
+Mumbai,mumbai,0,False
+Pune,pune,0,False
+Goa,goa,0,False
+Delhi,delhi,0,False
+New Delhi,new delhi,0,False
+Bangalore,bangalore,0,False
+Bengaluru,bengaluru,0,False
+Hyderabad,hyderabad,0,False
+Chennai,chennai,0,False
+Kolkata,kolkata,0,False
+Ahmedabad,ahmedabad,0,False
+Jaipur,jaipur,0,False
+Surat,surat,0,False
+Nagpur,nagpur,0,False
+Lucknow,lucknow,0,False
+Kanpur,kanpur,0,False
+Indore,indore,0,False
+Bhopal,bhopal,0,False
+Patna,patna,0,False
+Ranchi,ranchi,0,False
+Chandigarh,chandigarh,0,False
+Noida,noida,0,False
+Gurgaon,gurgaon,0,False
+Faridabad,faridabad,0,False
+Ghaziabad,ghaziabad,0,False
+Varanasi,varanasi,0,False
+Allahabad,allahabad,0,False
+Aurangabad,aurangabad,0,False
+Nashik,nashik,0,False
+Thane,thane,0,False
+Vadodara,vadodara,0,False
+Rajkot,rajkot,0,False
+Amritsar,amritsar,0,False
+Ludhiana,ludhiana,0,False
+Jodhpur,jodhpur,0,False
+Udaipur,udaipur,0,False
+Shimla,shimla,0,False
+Manali,manali,0,False
+Mysore,mysore,0,False
+Mangalore,mangalore,0,False
+Coimbatore,coimbatore,0,False
+Madurai,madurai,0,False
+Trichy,trichy,0,True
+Kochi,kochi,0,False
+Thiruvananthapuram,thiruvananthapuram,0,False
+Kozhikode,kozhikode,0,False
+Guwahati,guwahati,0,False
+Shillong,shillong,0,False
+Imphal,imphal,0,False
+Aizawl,aizawl,0,False
+Gangtok,gangtok,0,False
+Agartala,agartala,0,False
+Port Blair,port blair,0,False
+Leh,leh,0,False
+Kargil,kargil,0,False
+Srinagar,srinagar,0,False
+Jammu,jammu,0,False
+London,london,0,False
+New York,new york,0,False
+Los Angeles,los angeles,0,False
+Chicago,chicago,0,False
+San Francisco,san francisco,0,False
+Toronto,toronto,0,False
+Vancouver,vancouver,0,False
+Paris,paris,0,False
+Berlin,berlin,0,False
+Munich,munich,0,False
+Frankfurt,frankfurt,0,False
+Rome,rome,0,False
+Milan,milan,0,False
+Madrid,madrid,0,False
+Barcelona,barcelona,0,False
+Lisbon,lisbon,0,False
+Tokyo,tokyo,0,False
+Osaka,osaka,0,False
+Beijing,beijing,0,False
+Shanghai,shanghai,0,False
+Hong Kong,hong kong,0,False
+Singapore,singapore,0,False
+Dubai,dubai,0,False
+Abu Dhabi,abu dhabi,0,False
+Doha,doha,0,False
+Sydney,sydney,0,True
+Melbourne,melbourne,0,False
+Auckland,auckland,0,False
+Cape Town,cape town,0,False
+Johannesburg,johannesburg,0,False
+Cairo,cairo,0,False
+Nairobi,nairobi,0,False
+Mexico City,mexico city,0,False
+Rio de Janeiro,rio de janeiro,0,False
+São Paulo,são paulo,0,False
+Buenos Aires,buenos aires,0,False
+Google,google,0,False
+Microsoft,microsoft,0,False
+Apple,apple,0,False
+Amazon,amazon,0,False
+TCS,tcs,0,True
+Infosys,infosys,0,False
+Wipro,wipro,0,False
+Accenture,accenture,0,False
+IBM,ibm,0,False
+Flipkart,flipkart,0,False
+Reliance,reliance,0,False
+Jio,jio,0,False
+Aditya Birla,aditya birla,0,False
+Mahindra,mahindra,0,False
+Tata,tata,0,False
+Deloitte,deloitte,0,False
+KPMG,kpmg,0,True
+EY,ey,0,True
+PwC,pwc,0,True
+HSBC,hsbc,0,True
+Citi,citi,0,False
+Barclays,barclays,0,False
+Facebook,facebook,0,False
+Meta,meta,0,False
+Netflix,netflix,0,False
+Spotify,spotify,0,False
+Airbnb,airbnb,0,False
+Uber,uber,0,False
+Ola,ola,0,False
+Zomato,zomato,0,False
+Swiggy,swiggy,0,True
+sex education workshop available,sex education workshop available,0,False
+sexual health awareness seminar,sexual health awareness seminar,0,False
+how to kill time during travel,how to kill time during travel,0,False
+killer performance by the band,killer performance by the band,0,False
+this movie will kill boredom,this movie will kill boredom,0,False
+help me learn about guns (documentary),help me learn about guns (documentary),0,False
+need a writer to write about war history,need a writer to write about war history,0,False
+medical treatment for addiction,medical treatment for addiction,0,False
+drug rehabilitation program available,drug rehabilitation program available,0,False
+police investigation for bomb threat,police investigation for bomb threat,0,False
+need plumber for bathroom repair,need plumber for bathroom repair,0,False
+looking for a graphic designer,looking for a graphic designer,0,False
+hire a makeup artist for wedding,hire a makeup artist for wedding,0,False
+searching for a dance teacher,searching for a dance teacher,0,False
+want a personal fitness coach,want a personal fitness coach,0,False
+looking for a web developer to build site,looking for a web developer to build site,0,False
+need catering service for party,need catering service for party,0,False
+book a photographer for graduation,book a photographer for graduation,0,False
+hire a tutor for english speaking,hire a tutor for english speaking,0,False
+looking for event decorator,looking for event decorator,0,False
+asdfghjkl,asdfghjkl,1,True
+qazwsxedc,qazwsxedc,1,False
+poiuytrewq,poiuytrewq,1,False
+nmnmnmnm,nmnmnmnm,1,True
+zzxxccvv,zzxxccvv,1,True
+cheap prostitutes near me,cheap prostitutes near me,1,False
+escort agency contact,escort agency contact,1,False
+hire escort for night,hire escort for night,1,False
+sex worker for hire,sex worker for hire,1,False
+adult webcam show,adult webcam show,1,False
+camgirl private session,camgirl private session,1,False
+money transfer scam,money transfer scam,1,False
+get paid surveys fake,get paid surveys fake,1,False
+win cash now scam,win cash now scam,1,False
+bank OTP leak method,bank otp leak method,1,False
+buy hacked accounts,buy hacked accounts,1,False
+i want to shoot someone,i want to shoot someone,1,False
+let's kill him together,let's kill him together,1,False
+planning a mass shooting,planning a mass shooting,1,False
+how to make a bomb at home,how to make a bomb at home,1,False
+instructions to build explosive,instructions to build explosive,1,False
+looking for babysitter in Goa,looking for babysitter in goa,0,False
+need help moving furniture in Mumbai,need help moving furniture in mumbai,0,False
+want to hire a cake designer in Pune,want to hire a cake designer in pune,0,False
+looking to rent a car in Delhi,looking to rent a car in delhi,0,False
+need part time cashier in Bangalore,need part time cashier in bangalore,0,False
+hire a photographer for wedding in Chennai,hire a photographer for wedding in chennai,0,False
+looking for house painter in Hyderabad,looking for house painter in hyderabad,0,False
+searching for a pet sitter in Kolkata,searching for a pet sitter in kolkata,0,False
+need a plumber urgently in Surat,need a plumber urgently in surat,0,False
+want to hire a home tutor in Nagpur,want to hire a home tutor in nagpur,0,False
+zxcvbnm,zxcvbnm,1,True
+mnbvcxz,mnbvcxz,1,True
+xxxxxxxx,xxxxxxxx,1,True
+mmmmmmmm,mmmmmmmm,1,True
+nnnnnnnn,nnnnnnnn,1,True
+qqqqqqqq,qqqqqqqq,1,True
+asdfasdf,asdfasdf,1,False
+qweqweqwe,qweqweqwe,1,False
+dsjvbzmv,dsjvbzmv,1,True
+bkjb,bkjb,1,True
+hknk,hknk,1,True
+bdv,bdv,1,True
+kjk,kjk,1,True
+qaz,qaz,1,False
+qazwsx,qazwsx,1,True
+1q2w3e,iq2wee,1,False
+12qwas,i2qwas,1,False
+poi123,poii2e,1,False
+plm987,plm987,1,True
+asdf1234,asdfi2ea,1,False
+zxc123,zxci2e,1,False
+abcxyz,abcxyz,1,True
+xyzzxy,xyzzxy,1,True
+lmnop,lmnop,1,True
+rtyuio,rtyuio,1,False
+uvwxzy,uvwxzy,1,True
+gfdgfdgfd,gfdgfdgfd,1,True
+qweasd,qweasd,1,False
+wsxedc,wsxedc,1,True
+edcrfv,edcrfv,1,True
+rfvtgb,rfvtgb,1,True
+tgbnhy,tgbnhy,1,True
+yhnujm,yhnujm,1,True
+ujm,ujm,1,False
+bnm,bnm,1,True
+plmokn,plmokn,1,True
+okmijn,okmijn,1,False
+ijnuhb,ijnuhb,1,False
+uhbgyv,uhbgyv,1,True
+hgyvft,hgyvft,1,True
+gyvftd,gyvftd,1,True
+vftdrs,vftdrs,1,True
+ftrds,ftrds,1,True
+trdsa,trdsa,1,True
+rdsaq,rdsaq,1,True
+dsapoi,dsapoi,1,False
+sdfgh,sdfgh,1,True
+fghjk,fghjk,1,True
+ghjkl,ghjkl,1,True
+hjkl;,hjkl;,1,True
+jkl;'/,jkl/,1,True
+;'/.,.,1,True
+'/.1,.i,1,True
+%%%^^^&&,&,1,True
+0987654321,o9876sae2i,1,True
+1122334455,ii22eeaass,1,False
+55667788,ss667788,1,True
+999999999,999999999,1,True
+00000000,oooooooo,1,True
+11111111,iiiiiiii,1,True
+22222222,22222222,1,True
+33333333,eeeeeeee,1,True
+55555555,ssssssss,1,True
+66666666,66666666,1,True
+77777777,77777777,1,True
+88888888,88888888,1,True
+abababab,abababab,1,False
+bcbcbcbc,bcbcbcbc,1,True
+cdcdcdcd,cdcdcdcd,1,True
+dedededed,dedededed,1,False
+xyxyxyxy,xyxyxyxy,1,True
+yzyzyzyz,yzyzyzyz,1,True
+plplplpl,plplplpl,1,True
+mokmokmok,mokmokmok,1,False
+nijbnijb,nijbnijb,1,False
+kjbkjbkjb,kjbkjbkjb,1,True
+askldjask,askldjask,1,False
+randomchars123,randomcharsi2e,1,False
+chaotictext456,chaotictextas6,1,False
+mix3dletters789,mixedletters789,1,False
+gibberishXYZ,gibberishxyz,1,False
+nonsensetext,nonsensetext,1,False
+blabla123,blablai2e,1,False
+blahblahblah,blahblahblah,1,False
+zzzxxxccc,zzzxxxccc,1,True
+q1w2e3r4,qiw2eera,1,False
+z9x8c7v6,z9x8c7v6,1,True
+poi9u8y7,poi9u8y7,1,False
+plm6ok5n,plm6oksn,1,True
+speech on how to kill time productively,speech on how to kill time productively,0,False
+tips to kill time during travel,tips to kill time during travel,0,False
+ways students can kill time between classes,ways students can kill time between classes,0,False
+speech about activities to kill boredom,speech about activities to kill boredom,0,False
+how to kill time at the airport,how to kill time at the airport,0,False
+best games to kill time on mobile,best games to kill time on mobile,0,False
+kill time speech for school competition,kill time speech for school competition,0,False
+speech on entertainment to kill time,speech on entertainment to kill time,0,False
+funny speech about how people kill time,funny speech about how people kill time,0,False
+essay or speech on ways to kill time,essay or speech on ways to kill time,0,False
+how to kill time while waiting,how to kill time while waiting,0,False
+a killer deal on laptops,a killer deal on laptops,0,False
+kill time speech in parliament,kill time speech in parliament,0,False
+buying a toy water gun,buying a toy water gun,0,False
+gun museum exhibition this week,gun museum exhibition this week,0,False
+super soaker water gun fight,super soaker water gun fight,0,False
+the starter fired the gun at the race,the starter fired the gun at the race,0,False
+gun salute ceremony at the fort,gun salute ceremony at the fort,0,False
+that joke was the bomb,that joke was the bomb,0,False
+the party was the bomb last night,the party was the bomb last night,0,False
+the movie bombed at the box office,the movie bombed at the box office,0,False
+his speech was a bomb but harmless,his speech was a bomb but harmless,0,False
+shoot me a message when you arrive,shoot me a message when you arrive,0,False
+photo shoot for the magazine,photo shoot for the magazine,0,False
+basketball shoot practice,basketball shoot practice,0,False
+shooting stars in the sky,shooting stars in the sky,0,False
+cute puppy attack with kisses,cute puppy attack with kisses,0,False
+laughter attack during the movie,laughter attack during the movie,0,False
+sunlight attack brightened the room,sunlight attack brightened the room,0,False
+sudden yawning attack in class,sudden yawning attack in class,0,False
+that new phone is a killer design,that new phone is a killer design,0,False
+the comedian bombed on stage but safe,the comedian bombed on stage but safe,0,False
+the kids played with toy guns in the park,the kids played with toy guns in the park,0,False
+i need a g*u*n to attack,i need agu*n to attack,1,False
+buy weap0ns for k!lling,buy weapons for k!lling,1,False
+planning a b0mb explosion,planning a bomb explosion,1,False
+want to ki11 someone,want to kiii someone,1,False
+selling dr*gs online,selling dr*gs online,1,False
+hire a h!tman for murder,hire a h!tman for murder,1,False
+gonna sh00t him tonight,gonna shoot him tonight,1,False
+learn how to hack credit cards,learn how to hack credit cards,1,False
+illegal passport sale here,illegal passport sale here,1,False
+bomb m@king tutorial,bomb tutorial,1,False
+order explosives on black market,order explosives on black market,1,False
+guns available cheap contact me,guns available cheap contact me,1,False
+drug delivery service contact,drug delivery service contact,1,False
+threat to k1ll teacher tomorrow,threat to kill teacher tomorrow,1,False
+hiring an assassin to finish job,hiring an assassin to finish job,1,False
+terrorist att@ck instructions,terrorist instructions,1,False
+steal bank account passwords,steal bank account passwords,1,False
+smuggle weapons across border,smuggle weapons across border,1,False
+explosive material available,explosive material available,1,False
+buy cocaine delivery now,buy cocaine delivery now,1,False
+prepare for armed attack,prepare for armed attack,1,False
+weapons deal happening tonight,weapons deal happening tonight,1,False
+plan to bomb railway station,plan to bomb railway station,1,False
+contact for killing services,contact for killing services,1,False
+dark web drug vendor,dark web drug vendor,1,False
