@@ -1,0 +1,39 @@
+/* Full Page Styling */
+.homepage {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom right, #f8f9ff, #f4faff, #fdf6ff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* keeps hero at top */
+  overflow-x: hidden; /* stop horizontal scroll */
+  padding-bottom: 3rem;
+}
+
+/* Add smooth animation when loading */
+.homepage {
+  animation: fadeBg 2s ease-in-out;
+}
+
+/* Background subtle gradient animation */
+@keyframes fadeBg {
+  from {
+    background: linear-gradient(to bottom right, #ffffff, #f8f9ff);
+  }
+  to {
+    background: linear-gradient(to bottom right, #f8f9ff, #f4faff, #fdf6ff);
+  }
+}
+
+/* Section spacing for Hero, SearchBox, Post */
+.homepage > * {
+  margin-top: 1.5rem;
+}
+
+/* Responsive fix */
+@media (max-width: 768px) {
+  .homepage {
+    padding: 1rem;
+  }
+}

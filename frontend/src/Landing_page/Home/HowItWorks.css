@@ -1,0 +1,117 @@
+:root {
+  --blue: #4a90e2;
+  --blue-tint: rgba(74, 144, 226, 0.10);
+  --green: #2ecc71;
+  --green-tint: rgba(46, 204, 113, 0.08);
+  --yellow: #f5a623;
+  --yellow-tint: rgba(245, 166, 35, 0.08);
+  --text-dark: #1a2b4c;
+  --muted: #556;
+}
+
+/* full-width section with gradient background */
+.howitworks-container {
+  width: 100%;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #e6f7ff 0%, #d9f1ff 100%);
+  padding: 60px 20px;
+}
+
+.howitworks-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.howitworks-inner h2 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  color: var(--text-dark);
+}
+
+.howitworks-inner .subtitle {
+  color: #7b8a97;
+  margin-bottom: 40px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.step-card {
+  flex: 1 1 0;
+  min-width: 240px;
+  border-radius: 12px;
+  padding: 28px 20px;
+  background: #fff; /* cards stay white so gradient shows behind */
+  box-shadow: 0 8px 20px rgba(17, 24, 39, 0.06);
+  position: relative;
+  text-align: center;
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.step-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(17, 24, 39, 0.10);
+}
+
+.step-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 14px;
+  font-size: 1.8rem;
+  box-shadow: 0 8px 20px rgba(17, 24, 39, 0.06);
+}
+
+.step-number {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  background: var(--yellow);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 6px 10px;
+  border-radius: 999px;
+}
+
+.step-card h3 {
+  margin: 8px 0 8px;
+  color: var(--text-dark);
+  font-size: 1.15rem;
+}
+
+.step-card p {
+  color: #5f6b73;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.step-one .step-icon svg { color: var(--blue); }
+.step-two .step-icon svg { color: var(--green); }
+.step-three .step-icon svg { color: var(--yellow); }
+
+@media (max-width: 880px) {
+  .steps {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .step-card {
+    width: 100%;
+    max-width: 640px;
+  }
+
+  .step-number {
+    right: 20px;
+  }
+}

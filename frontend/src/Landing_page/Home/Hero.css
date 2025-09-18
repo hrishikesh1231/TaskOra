@@ -1,0 +1,38 @@
+.hero-container {
+  text-align: center;
+  padding: 6rem 2rem 3rem;
+  position: relative;
+  z-index: 1;
+  animation: fadeInUp 1s ease-out;
+}
+
+.hero-container h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #212529;
+  margin-bottom: 1rem;
+  animation: floatTitle 5s ease-in-out infinite;
+}
+
+.hero-container h1 span {
+  background: linear-gradient(90deg, #0d6efd, #6f42c1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-container h5 {
+  font-size: 1.2rem;
+  color: #6c757d;
+  margin-top: 0.5rem;
+  animation: fadeInUp 1.4s ease forwards;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(25px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes floatTitle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}

@@ -1,0 +1,35 @@
+.post-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.post-btn {
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.gig-btn {
+  background: linear-gradient(135deg, #198754, #20c997);
+}
+
+.gig-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(25, 135, 84, 0.4);
+}
+
+.service-btn {
+  background: linear-gradient(135deg, #dc3545, #ff4d6d);
+}
+
+.service-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(220, 53, 69, 0.4);
+}

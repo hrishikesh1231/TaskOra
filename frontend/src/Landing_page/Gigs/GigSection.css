@@ -1,0 +1,79 @@
+/* Container */
+.gig-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Heading */
+.gig-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* Gig Card */
+/* .gig-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+} */
+.gig-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.gig-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Gig Title */
+.gig-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+/* Gig Info */
+.gig-card p {
+  font-size: 1rem;
+  color: #555;
+  margin: 4px 0;
+}
+
+.gig-card strong {
+  color: #000;
+}
+
+/* Fallback text */
+.no-gigs {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #999;
+  margin-top: 40px;
+}
+.apply-button {
+  background-color: #0a84ff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.apply-button:hover {
+  background-color: #005bb5;
+}

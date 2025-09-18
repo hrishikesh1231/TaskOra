@@ -1,0 +1,103 @@
+/* Section background */
+.why-section {
+  width: 100%; /* Full page width */
+  background: linear-gradient(135deg, #e6f7ff 0%, #d9f1ff 100%);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Content container */
+.why-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Gradient Title */
+.why-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+
+  /* Gradient text effect */
+  background: linear-gradient(135deg, #3b82f6, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Subtitle */
+.why-subtitle {
+  font-size: 1.1rem;
+  color: #475569;
+  margin-bottom: 35px;
+}
+
+/* Cards wrapper */
+.why-cards {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+}
+
+/* Individual card */
+.why-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  flex: 1;              /* Equal width */
+  min-width: 250px;     /* Prevents cards from becoming too small */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
+}
+
+/* Card hover effect */
+.why-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Icons */
+.why-icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.why-icon.blue {
+  color: #3b82f6;
+}
+
+.why-icon.green {
+  color: #22c55e;
+}
+
+.why-icon.yellow {
+  color: #facc15;
+}
+
+/* Card title */
+.why-card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+
+/* Card description */
+.why-card p {
+  font-size: 0.95rem;
+  color: #475569;
+  line-height: 1.5;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 768px) {
+  .why-cards {
+    flex-direction: column;
+  }
+
+  .why-card {
+    width: 100%;
+  }
+}

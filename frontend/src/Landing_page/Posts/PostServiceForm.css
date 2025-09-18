@@ -1,0 +1,96 @@
+/* Container */
+.rf-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+/* Card styling */
+.rf-card {
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.rf-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #2c3e50;
+}
+
+/* Field label + input */
+.rf-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.rf-field span {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.rf-field input,
+.rf-field textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: border 0.3s ease;
+}
+
+.rf-field input:focus,
+.rf-field textarea:focus {
+  border-color: #28a745; /* green accent */
+  outline: none;
+}
+
+.rf-field textarea {
+  resize: vertical;
+}
+
+/* Grid for side-by-side fields */
+.rf-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+/* Action buttons */
+.rf-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.rf-btn {
+  flex: 1;
+  background-color: #28a745;
+  color: white;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.rf-btn:hover {
+  background-color: #1e7e34;
+}
+
+.rf-btn-secondary {
+  background-color: #ccc;
+  color: #333;
+}
+
+.rf-btn-secondary:hover {
+  background-color: #bbb;
+}

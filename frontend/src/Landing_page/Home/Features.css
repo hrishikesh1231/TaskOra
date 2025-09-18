@@ -1,0 +1,34 @@
+.features-container {
+  display: flex;                     /* use flexbox */
+  justify-content: center;           /* center horizontally */
+  align-items: stretch;              /* equal height cards */
+  gap: 2rem;                         /* space between cards */
+  padding: 3rem 2rem;
+  background: #fff;
+  text-align: center;
+  flex-wrap: nowrap;                 /* keep in one row */
+  overflow-x: auto;                  /* enable scroll if screen too small */
+}
+
+.feature-card {
+  flex: 1;                           /* cards take equal width */
+  min-width: 250px;                  /* prevent too small cards */
+  padding: 2rem;
+  background: linear-gradient(to bottom, #f9f9ff, #f3f4f6);
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-icon.blue { color: #0d6efd; }
+.feature-icon.green { color: #20c997; }
+.feature-icon.yellow { color: #ffc107; }

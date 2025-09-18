@@ -1,0 +1,176 @@
+/* Main container */
+.hero-container {
+  background: linear-gradient(135deg, #e6f7ff 0%, #d9f1ff 100%);
+  padding-top: 0;
+  padding-bottom: 0; /* ✅ No padding at the bottom */
+  margin: 0;
+  width: 100%; /* ✅ Full width */
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Content wrapper */
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  gap: 40px;
+}
+
+/* Left side */
+.left {
+  flex: 1;
+  text-align: left;
+}
+
+/* Right side */
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.right img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Title styles */
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.blue-text {
+  color: #0984e3;
+}
+
+.green-text {
+  color: #00b894;
+}
+
+/* Subtitle */
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* Search box wrapper */
+.search-wrapper {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Search box styles */
+.search-box {
+  display: flex;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  align-items: center;
+}
+
+/* Search icon */
+.search-box .icon {
+  padding: 12px;
+  background-color: #00b894; /* ✅ Green background for visibility */
+  color: white;              /* ✅ White icon for contrast */
+  font-size: 1.2rem;
+}
+
+/* Input inside search box */
+.search-box input {
+  flex: 1;
+  border: none;
+  padding: 12px 15px;
+  font-size: 1rem;
+  outline: none;
+}
+
+/* Search button */
+.search-btn {
+  background-color: #0984e3;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.search-btn:hover {
+  background-color: #0652dd;
+}
+
+/* Post buttons container */
+.post-container {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  margin-left: -297px;
+ 
+}
+
+/* Individual post buttons */
+.post-btn {
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.post-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Gig button style */
+.gig-btn {
+  background-color: #00b894;
+  color: white;
+}
+
+/* Service button style */
+.service-btn {
+  background-color: #d63031;
+  color: white;
+}
+
+/* Responsive layout for tablets */
+@media (max-width: 992px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left {
+    text-align: center;
+  }
+
+  .right {
+    margin-top: 30px;
+  }
+}
+
+/* Responsive layout for mobile */
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .search-wrapper {
+    width: 100%;
+  }
+}
